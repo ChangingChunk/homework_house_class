@@ -4,7 +4,7 @@ class House:
     self.number_of_floors = number_of_floors
 
   def go_to(self, new_floor):
-    if new_floor <= self.number_of_floors and new_floor > 0:
+    if new_floor <= self.number_of_floors and new_floor > 1:
       i =1
       while i <= int(new_floor):
         print(i)
